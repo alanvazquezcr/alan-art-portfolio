@@ -1,73 +1,67 @@
-# Portafolio Creativo – Fotografía, Diseño e Ilustración
+# Art Portfolio
 
-Sitio web personal tipo portafolio enfocado exclusivamente en disciplinas creativas. Diseño minimalista, moderno y responsive centrado en la exhibición visual.
+Portafolio artístico desarrollado para mostrar ilustraciones y fotografías, combinando un enfoque creativo libre con una ejecución técnica cuidada.
 
-## Estructura del proyecto
+---
 
-```
-Practica2/
-├── index.html          # Página principal (todas las secciones)
-├── css/
-│   └── styles.css      # Estilos, variables, animaciones, responsive
-├── js/
-│   └── script.js       # Navegación, scroll reveal, filtros portafolio
-├── assets/             # Imágenes y recursos (crear y añadir tus archivos)
-│   ├── foto-perfil.jpg # Foto para el Hero (recomendado: 400×400 px)
-│   ├── portafolio/     # Imágenes destacadas de cada proyecto
-│   └── galeria/        # Fotografías para la galería
-└── README.md
-```
+## Sobre el proyecto
 
-## Secciones
+Este sitio web fue creado como un proyecto personal con el objetivo de:
 
-1. **Hero** – Nombre, frase creativa, foto, CTAs (Ver portafolio / Contacto).
-2. **Sobre mí** – Biografía centrada en la evolución artística y visión creativa.
-3. **Portafolio** – Filtros por categoría (Fotografía, Diseño, Ilustración). Cada proyecto: imagen, concepto, herramientas y narrativa.
-4. **Galería** – Grid de piezas visuales y fotografías artísticas destacadas.
-5. **Habilidades** – Especializadas en imagen, diseño y herramientas digitales.
-6. **Contacto** – Email, redes creativas (Behance, Dribbble, Instagram), CTA.
+- Practicar desarrollo web
+- Mostrar habilidades tanto artísticas como técnicas
+- Presentar trabajos finalizados de ilustración y fotografía
 
-## Personalización
+El contenido refleja un estilo variado, sin encasillarse en una sola corriente artística, lo que permite explorar diferentes formas de expresión visual.
 
-- **Nombre y título:** Busca "Tu Nombre" y "Tu Nombre Completo" en `index.html` y sustituye por el tuyo.
-- **Email y redes:** En la sección Contacto, cambia `tu@email.com` y los `href="#"` por tus enlaces reales (LinkedIn, GitHub, Instagram, etc.).
-- **Foto Hero:** En el Hero, reemplaza el bloque del placeholder por:
-  ```html
-  <img src="assets/foto-perfil.jpg" alt="Tu nombre">
-  ```
-- **Proyectos:** Edita cada `.portafolio-card`: títulos, descripciones, tecnologías y aprendizajes. Para usar imágenes reales, sustituye el `div.portafolio-placeholder` por `<img src="assets/portafolio/nombre-proyecto.jpg" alt="...">`.
-- **Galería:** En cada `.galeria-item` puedes poner `<img src="assets/galeria/1.jpg" alt="...">` dentro del div (manteniendo el placeholder como fallback si quieres).
+---
 
-## Diseño
+## Contenido artístico
 
-- **Paleta:** Neutros (#fafafa, #1a1a1a) y acento morado vibrante (#7C3AED). Editable en `:root` de `css/styles.css`.
-- **Tipografías:** DM Sans (texto) y Playfair Display (títulos), cargadas desde Google Fonts.
-- **Animaciones:** Reveal al hacer scroll y transiciones suaves en botones y tarjetas.
+El portafolio incluye:
 
-## Requisitos técnicos cubiertos
+- Ilustraciones digitales
+- Ilustraciones tradicionales
+- Fotografía
 
-- HTML5 semántico y accesible (skip link, ARIA, landmarks).
-- CSS con variables, responsive y animaciones ligeras.
-- JavaScript vanilla: menú móvil, scroll suave, filtros de portafolio, observer para reveal.
-- SEO básico: `meta description`, `title`, estructura de encabezados.
+Todos los trabajos presentados son piezas finalizadas.
 
-## Cómo ver el sitio
+---
 
-Abre `index.html` en el navegador o usa un servidor local:
+## Tecnologías utilizadas
 
-```bash
-# Con Python
-python -m http.server 8000
+- HTML
+- CSS
+- JavaScript
 
-# Con Node (npx)
-npx serve .
-```
+---
 
-Luego visita `http://localhost:8000` (o el puerto que uses).
+## Funcionalidades
 
-## Próximos pasos
+El usuario puede:
 
-- Añadir tus fotos en `assets/` y enlazarlas en Hero, portafolio y galería.
-- Sustituir textos de ejemplo por tu biografía y proyectos reales.
-- Opcional: formulario de contacto (backend o servicio tipo Formspree).
-- Publicar en GitHub Pages, Netlify o Vercel para tener la URL en línea.
+- Explorar una galería de trabajos
+- Filtrar contenido según categorías
+- Contactar al autor
+
+---
+
+## Objetivo
+
+Este proyecto funciona como una muestra de habilidades en:
+
+- Desarrollo web frontend
+- Diseño visual
+- Integración entre arte y tecnología
+
+---
+
+## Ver sitio
+
+🔗 https://tu-sitio.com
+
+---
+
+## Autor
+
+Alan Vázquez

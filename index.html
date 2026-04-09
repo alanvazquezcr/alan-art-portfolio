@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portafolio creativo: fotografía artística, diseño gráfico e ilustración. Explorando la estética a través de la lente y el lienzo digital.">
+  <meta name="theme-color" content="#1a1a1a">
+  <title>Alan Vázquez | Fotografía & Diseño</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Ir al contenido principal</a>
+
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a href="#" class="nav-logo" aria-label="Inicio">Alan Vázquez</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- 1. Hero Section -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-bg"></div>
+      <div class="hero-content container">
+        <p class="hero-subtitle reveal">Fotografía · Diseño · Ilustración</p>
+        <h1 class="hero-title reveal" id="hero-title">Alan Vázquez</h1>
+        <p class="hero-tagline reveal">Capturando la esencia a través de la luz y el diseño visual. Creativo
+          multidisciplinario.</p>
+        <div class="hero-visual reveal">
+          <div class="hero-photo" role="img" aria-label="Foto de perfil">
+            <div class="hero-photo-placeholder">
+              <img src="assets/foto-perfil.jpg" alt="Tu nombre">
+            </div>
+          </div>
+        </div>
+        <div class="hero-cta reveal">
+          <a href="#portafolio" class="btn btn-primary">Ver portafolio</a>
+          <a href="#contacto" class="btn btn-secondary">Contacto</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Sobre mí -->
+    <section class="section sobre-mi" id="sobre-mi" aria-labelledby="sobre-mi-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="sobre-mi-title">Sobre mí</h2>
+        <div class="sobre-mi-grid">
+          <div class="sobre-mi-text reveal">
+            <p class="lead">Creador visual con pasión por la narrativa estética y la composición artística.</p>
+            <p>Mi trabajo se centra en la <strong>fotografía artística</strong>, donde busco capturar momentos con una
+              visión propia y emocional. Complemento esta faceta con el <strong>diseño gráfico</strong> y la
+              <strong>ilustración digital</strong>, creando universos visuales que comunican ideas con fuerza y
+              claridad.
+            </p>
+            <p>Exploro constantemente nuevas técnicas y lenguajes visuales. Mi enfoque combina la precisión técnica de
+              la luz con la libertad creativa del lienzo digital, siempre en busca de una estética que cuente historias
+              inolvidables.</p>
+            <div class="sobre-mi-valores">
+              <span>Visión Artística</span>
+              <span>Composición</span>
+              <span>Narrativa Visual</span>
+              <span>Innovación Estética</span>
+            </div>
+          </div>
+          <div class="sobre-mi-visual reveal">
+            <div class="sobre-mi-card">
+              <span class="sobre-mi-card-label">Enfoque</span>
+              <p>Creatividad</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Portafolio -->
+    <section class="section portafolio" id="portafolio" aria-labelledby="portafolio-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="portafolio-title">Portafolio</h2>
+        <p class="section-subtitle reveal">Una selección de mis trabajos en fotografía artística, diseño gráfico e
+          ilustración digital.</p>
+        <div class="portafolio-filters reveal" role="tablist" aria-label="Filtrar proyectos">
+          <button type="button" class="filter-btn active" data-filter="todos" role="tab"
+            aria-selected="true">Todos</button>
+          <button type="button" class="filter-btn" data-filter="fotografia" role="tab">Fotografía</button>
+          <button type="button" class="filter-btn" data-filter="diseno" role="tab">Diseño</button>
+          <button type="button" class="filter-btn" data-filter="ilustracion" role="tab">Ilustración</button>
+        </div>
+        <div class="portafolio-grid">
+          <!-- Proyecto fotografía -->
+          <article class="portafolio-card reveal" data-category="fotografia">
+            <div class="portafolio-card-image">
+              <div class="portafolio-placeholder" data-theme="photo"><img src="assets/portafolio/fotografia.jpg"
+                  alt="Tu nombre">
+              </div>
+              <div class="portafolio-card-overlay">
+                <span class="portafolio-card-category">Fotografía Artística</span>
+              </div>
+            </div>
+            <div class="portafolio-card-content">
+              <h3>Luz y Memoria</h3>
+              <p>Exploración visual sobre la nostalgia y el paso del tiempo a través de paisajes minimalistas.</p>
+              <ul class="portafolio-tech">
+                <li>Digital</li>
+                <li>Composición</li>
+                <li>Post-procesado</li>
+              </ul>
+              <p class="portafolio-learn">Concepto: La quietud del espacio y el silencio visual.</p>
+            </div>
+          </article>
+          <!-- Proyecto diseño -->
+          <article class="portafolio-card reveal" data-category="diseno">
+            <div class="portafolio-card-image">
+              <div class="portafolio-placeholder" data-theme="tech"><img src="assets/portafolio/diseno.jpg"
+                  alt="Ferremateriales Las Minas"></div>
+              <div class="portafolio-card-overlay">
+                <span class="portafolio-card-category">Diseño Gráfico</span>
+              </div>
+            </div>
+            <div class="portafolio-card-content">
+              <h3>Identidad de Marca</h3>
+              <p>Desarrollo integral de sistema visual, logotipo y paleta cromática para estudio creativo.</p>
+              <ul class="portafolio-tech">
+                <li>Illustrator</li>
+                <li>Tipografía</li>
+                <li>Layout</li>
+              </ul>
+              <p class="portafolio-learn">Enfoque: Minimalismo funcional y pregnancia visual.</p>
+            </div>
+          </article>
+          <!-- Proyecto ilustración -->
+          <article class="portafolio-card reveal" data-category="ilustracion">
+            <div class="portafolio-card-image">
+              <div class="portafolio-placeholder" data-theme="art"><img src="assets/portafolio/ilustracion.jpg"
+                  alt="Noche Estrellada">
+              </div>
+              <div class="portafolio-card-overlay">
+                <span class="portafolio-card-category">Ilustración Digital</span>
+              </div>
+            </div>
+            <div class="portafolio-card-content">
+              <h3>Universos Oníricos</h3>
+              <p>Serie de ilustraciones digitales inspiradas en el surrealismo y la naturaleza fantástica.</p>
+              <ul class="portafolio-tech">
+                <li>Procreate</li>
+                <li>Color</li>
+                <li>Texturas</li>
+              </ul>
+              <p class="portafolio-learn">Técnica: Pintura digital con pinceles personalizados.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Galería visual -->
+    <section class="section galeria" id="galeria" aria-labelledby="galeria-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="galeria-title">Galería</h2>
+        <p class="section-subtitle reveal">Algunas de mis fotografías destacadas.</p>
+        <div class="galeria-grid">
+          <div class="galeria-item reveal">
+            <div class="galeria-placeholder"><img src="assets/galeria/foto1.jpg" alt=""></div>
+          </div>
+          <div class="galeria-item reveal">
+            <div class="galeria-placeholder"><img src="assets/galeria/foto2.jpg" alt=""></div>
+          </div>
+          <div class="galeria-item reveal galeria-item--tall">
+            <div class="galeria-placeholder"><img src="assets/galeria/foto3.jpg" alt=""></div>
+          </div>
+          <div class="galeria-item reveal">
+            <div class="galeria-placeholder"><img src="assets/galeria/foto4.jpg" alt=""></div>
+          </div>
+          <div class="galeria-item reveal">
+            <div class="galeria-placeholder"><img src="assets/galeria/foto5.jpg" alt=""></div>
+          </div>
+          <div class="galeria-item reveal galeria-item--wide">
+            <div class="galeria-placeholder"><img src="assets/galeria/foto6.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Habilidades -->
+    <section class="section habilidades" id="habilidades" aria-labelledby="habilidades-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="habilidades-title">Habilidades Especializadas</h2>
+        <div class="habilidades-grid">
+          <div class="habilidades-block reveal">
+            <h3 class="habilidades-block-title">Fotografía & Imagen</h3>
+            <ul class="habilidades-list">
+              <li>Fotografía artística y de paisaje</li>
+              <li>Manejo de luz natural y artificial</li>
+              <li>Post-producción avanzada (Lightroom / Photoshop)</li>
+              <li>Composición y narrativa visual</li>
+            </ul>
+          </div>
+          <div class="habilidades-block reveal">
+            <h3 class="habilidades-block-title">Diseño & Ilustración</h3>
+            <ul class="habilidades-list">
+              <li>Diseño de identidad visual y branding</li>
+              <li>Ilustración digital (Procreate / Illustrator)</li>
+              <li>Gestión de color y tipografía</li>
+              <li>Storytelling y contenido visual</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Contacto -->
+    <section class="section contacto" id="contacto" aria-labelledby="contacto-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="contacto-title">Contacto</h2>
+        <p class="section-subtitle reveal">¿Colaboración, proyecto o solo saludar? Escríbeme.</p>
+        <div class="contacto-content reveal">
+          <a href="mailto:alanvazquezcr@gmail.com" class="contacto-email">alanvazquezcr@gmail.com</a>
+          <div class="contacto-social" aria-label="Redes sociales">
+            <a href="https://www.instagram.com/alanvazquezcrz/" rel="noopener noreferrer" aria-label="Instagram"
+              target="top">Instagram</a>
+            <a href="https://www.behance.net/alanvazquezcr" rel="noopener noreferrer" aria-label="Behance"
+              target="top">Behance</a>
+
+          </div>
+          <a href="mailto:alanvazquezcr@gmail.com" class="btn btn-primary btn-cta">Enviar mensaje</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Alan Vázquez. Hecho con dedicación.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
